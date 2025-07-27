@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>I'm not a robot</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main>
-      <!-- solution start -->
-      
-      <!-- solution end -->
-    </main>
-    <script src="./script.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Not A Robot Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3 id="h">Please click on the identical tiles to verify that you are not a robot.</h3>
+
+    <div class="image-container">
+        <img src="https://via.placeholder.com/150?text=Image1" alt="img1" class="image" id="img1">
+        <img src="https://via.placeholder.com/150?text=Image2" alt="img2" class="image" id="img2">
+        <img src="https://via.placeholder.com/150?text=Image3" alt="img3" class="image" id="img3">
+        <img src="https://via.placeholder.com/150?text=Image4" alt="img4" class="image" id="img4">
+        <img src="https://via.placeholder.com/150?text=Image5" alt="img5" class="image" id="img5">
+        <img src="https://via.placeholder.com/150?text=Image6" alt="img6" class="image" id="img6">
+    </div>
+
+    <button id="reset" class="btn" style="display:none;">Reset</button>
+    <button id="verify" class="btn" style="display:none;">Verify</button>
+    <p id="para"></p>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
